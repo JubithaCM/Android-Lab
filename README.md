@@ -1,7 +1,12 @@
-# Android-Lab
-1. login form
-2. Shared preferences
-4.implicit cantrol
-5. UI Design
-6. Cascading layout
-7. Simple calculator using cascading layout
+ANDROID LAB
+1) Login form
+2) Activity life cycle
+3) Shared preference
+4) implicit intent
+5) UI Cantrol
+6) Cascading Layout
+7) Simple calculator using linear layout
+8) Custom toast using registration form
+9) Simple calculator using grid layout
+10) Frame layout for birthday card
+
