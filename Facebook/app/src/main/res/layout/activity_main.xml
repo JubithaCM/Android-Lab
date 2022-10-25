@@ -16,7 +16,7 @@
         android:text="Facebook"
         android:textColor="@color/white"
         android:padding="8dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    />
 
     <TextView
         android:id="@+id/text2"
@@ -25,7 +25,7 @@
         android:text="Email or phone"
         android:textColor="@color/white"
          android:layout_below="@+id/text1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
         android:gravity="left"
         android:padding="5dp"/>
 
@@ -45,7 +45,7 @@
         android:text="Password"
         android:textColor="@color/white"
         android:layout_below="@+id/editText"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
         android:gravity="left"
         android:padding="5dp"/>
     <EditText
@@ -64,8 +64,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editText2"
         android:padding="5dp"
-        android:text="Save Login"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:text="Save Login"></CheckBox>
+
 
     <Button
         android:id="@+id/save"
@@ -74,7 +74,7 @@
         android:text="Done"
         android:padding="5dp"
         android:layout_margin="30dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
         android:layout_below="@id/checkBox"
         android:background="@color/white"
 
@@ -90,14 +90,15 @@
         android:text="Cancel"
         android:background="@color/white"
         android:layout_toRightOf="@id/save"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    >
+
+    </Button>
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Need an account?Please signup"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:layout_below="@id/save"
         android:padding="5dp"/>
 
